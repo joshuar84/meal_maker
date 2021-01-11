@@ -52,6 +52,7 @@ menu.addDishToCourse("appetizers", "mini tacos", 5.99);
 menu.addDishToCourse("appetizers", "jalapeno poppers", 6.99);
 menu.addDishToCourse("appetizers", "escargo", 9.99);
 menu.addDishToCourse("appetizers", "chili fries with cheese", 7.99);
+menu.addDishToCourse("appetizers", "stuffed potato skins", 8.99);
 menu.addDishToCourse("mains", "pork chops with brown gravy", 15.99);
 menu.addDishToCourse("mains", "top sirloin steak grilled with mashed potatoes", 25.99);
 menu.addDishToCourse("mains", "roasted lamb with mint jelly and fries", 23.99);

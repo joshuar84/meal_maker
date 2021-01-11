@@ -44,7 +44,7 @@ const menu = {
     const price = Object.values(appetizer)[0] + 
         Object.values(main)[0] + 
         Object.values(dessert)[0];
-    return `Welcome to the Steak-Out Steak-House. May I recommend you start off with ${Object.keys(appetizer)[0]} for $${Object.values(appetizer)[0]} followed by a hearty ${Object.keys(main)[0]} for $${Object.values(main)[0]} and for dessert may I suggest ${Object.keys(dessert)[0]} for $${Object.values(dessert)[0]}. The total of this meal will be $${price} plus tip of course.`;
+    return `Welcome to the Steak-Out Steak-House. May I recommend you start off with ${Object.keys(appetizer)[0]} for $${Object.values(appetizer)[0]} followed by hearty ${Object.keys(main)[0]} for $${Object.values(main)[0]} and for dessert may I suggest ${Object.keys(dessert)[0]} for $${Object.values(dessert)[0]}. The total of this meal will be $${price} plus tip of course.`;
   }
 };
 

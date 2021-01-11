@@ -62,6 +62,7 @@ menu.addDishToCourse("desserts", "ice cream cake", 5.99);
 menu.addDishToCourse("desserts", "a slice of our famous pies", 5.99);
 menu.addDishToCourse("desserts", "chocolate lava creme brule", 6.99);
 menu.addDishToCourse("desserts", "gummy bears", 0.99);
+menu.addDishToCourse("desserts", "m and m's", 0.99);
 
 let meal = menu.generateRandomMeal();
 console.log(meal);

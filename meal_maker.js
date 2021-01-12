@@ -41,8 +41,8 @@ const menu = {
     const appetizer = this.getRandomDishFromCourse("appetizers");
     const main = this.getRandomDishFromCourse("mains");
     const dessert = this.getRandomDishFromCourse("desserts");
-    const price = Object.values(appetizer)[0] + 
-        Object.values(main)[0] + 
+    const price = Object.values(appetizer)[0] +
+        Object.values(main)[0] +
         Object.values(dessert)[0];
     return `Welcome to the Steak-Out Steak-House. May I recommend you start off with ${Object.keys(appetizer)[0]} for $${Object.values(appetizer)[0]} followed by hearty ${Object.keys(main)[0]} for $${Object.values(main)[0]} and for dessert may I suggest ${Object.keys(dessert)[0]} for $${Object.values(dessert)[0]}. The total of this meal will be $${price.toFixed(2)} plus tip of course.`;
   }
@@ -69,4 +69,4 @@ menu.addDishToCourse("desserts", "gummy bears", 0.99);
 menu.addDishToCourse("desserts", "m and m's", 0.99);
 
 let meal = menu.generateRandomMeal();
-console.log(meal);
+console.log(meal.courses);

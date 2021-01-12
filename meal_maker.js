@@ -60,6 +60,7 @@ menu.addDishToCourse("mains", "top sirloin steak grilled with mashed potatoes", 
 menu.addDishToCourse("mains", "roasted lamb with mint jelly and fries", 23.99);
 menu.addDishToCourse("mains", "fried fish of the day with holindaise and capers", 21.99);
 menu.addDishToCourse("mains", "prime rib with au jus and baked potato", 39.99);
+menu.addDishToCourse("mains", "Chalupas", 12.99);
 menu.addDishToCourse("desserts", "banana split with chocolate", 4.99);
 menu.addDishToCourse("desserts", "ice cream cake", 5.99);
 menu.addDishToCourse("desserts", "a slice of our famous pies", 5.99);
